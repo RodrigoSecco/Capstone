@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Capstone</title>
+</head>
+<body>
+    <header>
+        <h1>Weartake</h1>
+        <nav class="menu-nav">
+            <ul>
+                <li><a href="">Todos</a></li>
+                <li><a href="">Acessórios</a></li>
+                <li><a href="">Blusas</a></li>
+                <li><a href="">Camisetas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">       
+            <ul class="products-content">
+                <li class="product">
+                    <img alt="camiseta branca" src="img/camiseta_branca.svg">
+                    <main class="info">
+                        <h2>CAMISETAS</h2>
+                        <h3>Camiseta branca</h3>
+                        <p>Agora você encontrou a camiseta básica do seu guarda-roupa. É feito de um mais fino...</p>
+                        <strong>R$100,00</strong>
+                        <button class="adicionar">Adicionar ao carrinho</button>
+                    </main>
+                </li>
+                <li class="product">
+                    <img alt="camiseta preta" src="img/camiseta_preta.svg">
+                    <main class="info">
+                        <h2>CAMISETAS</h2>
+                        <h3>Camiseta preta</h3>
+                        <p>Esta t-shirt é imprescindível no seu guarda-roupa, combinando o caimento intemporal de...</p>
+                        <strong>R$100,00</strong>
+                        <button class="adicionar">Adicionar ao carrinho</button>
+                    </main>
+                </li>
+                <li class="product">
+                    <img alt="gorro preto" src="img/gorro.svg">
+                    <main class="info">
+                        <h2>ACESSÓRIOS</h2>
+                        <h3>Gorro</h3>
+                        <p>O gorro Next.js chegou! Esta beldade bordada tem um ajuste confortável que garante que...
+                        </p>
+                        <strong>R$100,00</strong>
+                        <button class="adicionar">Adicionar ao carrinho</button>
+                    </main>
+                </li>            
+                <li class="product">
+                    <img alt="jaqueta preta" src="img/jaqueta.svg">
+                    <main class="info">
+                        <h2>BLUSAS</h2>
+                        <h3>Jaqueta</h3>
+                        <p>Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
+                        <strong>R$100,00</strong>
+                        <button class="adicionar">Adicionar ao carrinho</button>
+                    </main>
+                </li>
+                <li class="product">
+                    <img alt="mascara preta" src="img/mascara.svg">
+                    <main class="info">
+                        <h2>ACESSÓRIOS</h2>
+                        <h3>Mascara</h3>
+                        <p>Esta máscara facial durável é feita de duas camadas de tecido tratado e possui presilhas...</p>
+                        <strong>R$100,00</strong>
+                        <button class="adicionar">Adicionar ao carrinho</button>
+                    </main>
+                </li>
+                <li class="product">
+                    <img alt="moletom preto" src="img/moletom.svg">
+                    <main class="info">
+                        <h2>BLUSAS</h2>
+                        <h3>Moletom</h3>
+                        <p>Proteja-se dos elementos com esta jaqueta embalável Champion. Esta jaqueta...</p>
+                        <strong>R$100,00</strong>
+                        <button class="adicionar">Adicionar ao carrinho</button>
+                    </main>
+                </li>
+            </ul>
+        <div class="carrinho">   
+            <div>
+                <input id="nome" type="text" required placeholder="Digite aqui sua pesquisa">
+                <button class="pesquisar">Pesquisar</button>
+            </div>
+            <div class="carrinho2">
+                <h2>CARRINHO DE COMPRAS</h2>
+                <ul>
+                    <li>
+                        <img alt="camiseta preta" src="img/camiseta_preta.svg" class="imgCarrinho">
+                        <div>
+                            <h3>Camiseta preta</h3>
+                            <strong>R$100,00</strong>
+                            <button class="remover">remover produto</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img alt="moletom preto" src="img/moletom.svg" class="imgCarrinho">
+                        <div>
+                            <h3>Moletom</h3>
+                            <strong>R$100,00</strong>
+                            <button class="remover">remover produto</button>
+                        </div>
+                    </li>
+                </ul>
+                <div class="carrinho3">
+                <h4>quantidade:  R$200,00</h4>
+                <h4>total:  2</h4>
+                </div>
+            </div>
+        </div> 
+    </main>
+    <script src="js/index.js"></script>
+    <script src="js/database.js"></script>
+</body>
+</html>
